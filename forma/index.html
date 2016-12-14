@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Forma</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
+		</head>
+		<body>
+            <div id="color">
+	            <h1>MAGDALENA K</h1>
+	        </div>
+            <form action="">
+	            <p>Osvoji model iz kolekcije Magdalena K<br>
+				Win a model from Magdalena K collection</p>
+				<span><sup>*</sup> Required</span>
+			    
+			    <label for="fname">Ime (First Name)<span><sup>*</sup></span></label>
+			    <input type="text" name="first_name" placeholder="Your answer" id="fname">
+                
+                <label for="lname">Prezime (Last Name)<span><sup>*</sup></span></label>
+            	<input type="text" name="last_name" placeholder="Your answer" id="lname">
+
+            	<p class="radio">Starosna grupa (Age)<span><sup>*</sup></span></p>
+            	<div class="age">
+	            	<input type="radio" name="age" value="< 20">< 20<br>
+	            	<input type="radio" name="age" value="20 - 30">20 - 30<br>
+	            	<input type="radio" name="age" value="30 - 40">30 - 40<br>
+	            	<input type="radio" name="age" value="30 - 40">30 - 40<br>
+	            	<input type="radio" name="age" value="> 50">> 50<br>
+            	</div>
+
+            	<label for="email">Email<span><sup>*</sup></span></label>
+			    <input type="email" name="email" placeholder="Your answer" id="email">
+
+			    <label for="number">Telefon (Telephone)</label>
+			    <input type="number" name="phone" placeholder="Your answer" id="number">
+
+			    <label for="city">Grad (City)<span><sup>*</sup></span></label>
+			    <select id="city" name="city">
+			      <option value="city">Your City</option>
+			      <option value="beograd">Beograd</option>
+			      <option value="smederevo">Smederevo</option>
+			      <option value="valjevo">Valjevo</option>
+			    </select>
+
+			    <p class="radio">Veličina cipela (Shoe Size)<span><sup>*</sup></span></p>
+            	<div class="size">
+	            	<input type="checkbox" name="age" value="36">36<br>
+	            	<input type="checkbox" name="age" value="37">37<br>
+	            	<input type="checkbox" name="age" value="38">38<br>
+	            	<input type="checkbox" name="age" value="39">39<br>
+	            	<input type="checkbox" name="age" value="40">40<br>
+	            	<input type="checkbox" name="age" value="41">41<br>
+            	</div>
+
+				<label for="amount">Kolicina (Amount)</label>
+			    <input type="number" name="amount" placeholder="1" id="amount">
+
+				<input type="submit" name="posalji" value="posalji">           	
+            </form>			
+		</body>
+	</html>
